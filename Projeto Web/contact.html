@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title>Site Méllanie</title>
+  <meta charset="utf-8" />
+  <meta name="author" content="Mell" />
+  <meta name="descripition" content="Atividade Avaliativa Final" />
+  <meta name="keywords" content="coisinhas" />
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" />
+  <link rel="stylesheet" href="assets/countdown/jquery.countdown.css" />
+</head>
+
+<body>
+  <div class="news">
+    <div style="margin-bottom: 10px;">Big News Coming Soon!!!!!</div>
+    <div id="countdown"></div>
+  </div>
+  <div id="main">
+    <header class="header-top">
+      <img class="logo" src="assets/img/logo.png" alt="Logo" width="100px" />
+      <nav class="header-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="portifolio.html">Portifolio</a></li>
+          <li><a href="aboutUs.html">About us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="bk-btn" onclick="history.back()">
+      <div class="bk-btn-triangle"></div>
+      <div class="bk-btn-bar"></div>
+    </div>
+    <div class="title">
+      Call us!!!
+      <br />
+      Send a message!!
+      <br />
+      Send a email!!
+      <br />
+      No think too much, we here to help you.
+    </div>
+    <ul class="list">
+      <li>
+        <p class="list-text">Instagram:</p>
+        <a href="https://www.instagram.com/" target="_blank">
+          <img class="list-img" src="assets/img/logos/Insta.png" width="70px" />
+        </a>
+      </li>
+      <li>
+        <p class="list-text">Linkedin:</p>
+        <a href="https://www.linkedin.com" target="_blank">
+          <img class="list-img" src="assets/img/logos/Linkedin.png" width="70px" />
+        </a>
+      </li>
+      <li>
+        <p class="list-text">Number:</p>
+        <a href="https://wa.me/5541984330792" target="_blank">
+          <img class="list-img" src="assets/img/logos/Phone.png" width="70px" />
+        </a>
+        <p class="secret">Se tiver qualquer dúvida sobre o projeto esse é meu whats viu :)</p>
+      </li>
+      <li>
+        <p class="list-text">Email:</p>
+        <a href="https://mellanie.padilha@gmail.com" target="_blank">
+          <img class="list-img" src="assets/img/logos/email.png" width="70px" />
+        </a>
+      </li>
+    </ul>
+    <div class="title maps">
+      <div>Where find us????</div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d133454.63085652507!2d-52.87666613730566!3d-28.481879876520473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94fd492498d6957f%3A0x9a8b601ccba4050d!2sN%C3%A3o-Me-Toque+-+RS%2C+99470-000!5e0!3m2!1spt-BR!2sbr!4v1526132456834"
+        width="600" height="450" frameborder="0" style="border: 0;" allowfullscreen></iframe>
+    </div>
+    <footer>
+      Copyright &copy; Méll
+    </footer>
+  </div>
+</body>
+<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script src="assets/countdown/jquery.countdown.js"></script>
+<script src="assets/js/script.js"></script>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
+
+  body {
+    /* fonte reserva: */
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    width: 1024px;
+    margin: auto;
+  }
+
+  .news {
+    font-size: 36px;
+    font-weight: normal;
+    text-align: center;
+    color: aliceblue;
+    background: #829db3;
+    background-image: url(assets/img/bg_detalhe.png);
+    background-repeat: repeat-x;
+    background-position: top;
+  }
+
+  #main {
+    width: 1024px;
+    margin: 0px auto;
+  }
+
+  .header-top {
+    height: 50px;
+    background: #003d52;
+    position: relative;
+  }
+
+  .logo {
+    margin: 0 0 0 130px;
+  }
+
+  .header-nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+  }
+
+  .header-nav ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  .header-nav li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 15px 0 0;
+    padding: 14px;
+  }
+
+  .header-nav a {
+    color: rgb(182, 213, 237);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 5px;
+  }
+
+  .header-nav a:hover {
+    color: rgb(255, 255, 255);
+  }
+
+  .bk-btn {
+    margin: 20px;
+    height: 52px;
+    width: 52px;
+    background-color: #003d52;
+    border-radius: 50%;
+  }
+
+  .bk-btn .bk-btn-triangle {
+    position: relative;
+    top: 13px;
+    left: 10.4px;
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-bottom: 13px solid transparent;
+    border-right: 13px solid white;
+  }
+
+  .bk-btn .bk-btn-bar {
+    position: relative;
+    background-color: white;
+    height: 7.8px;
+    width: 13px;
+    top: -3.64px;
+    left: 22.88px;
+  }
+
+  .title {
+    font-family: 'Staatliches', cursive;
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+    margin: 40px 0 10px;
+    font-weight: bold;
+    color: #003d52;
+  }
+
+  .text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    line-height: 2;
+    color: #555;
+    text-align: center;
+    padding: 50px 100px;
+  }
+
+  .list {
+    font-family: 'Staatliches', cursive;
+    font-size: 30px;
+    list-style: none;
+  }
+
+  .list-text {
+    text-align: center;
+    margin: 20px 0 0 0;
+    color: #092131;
+  }
+
+  .list-img {
+    margin: 0 46% 0;
+  }
+
+  .maps {
+    width: 100%;
+    height: 450px;
+    margin-top: 70px;
+  }
+
+  .maps iframe {
+    width: 100%;
+  }
+
+  footer {
+    background: #0b171f;
+    color: #97b4cb;
+    text-align: center;
+    font-size: 12px;
+    padding: 25px;
+    letter-spacing: 5px;
+  }
+
+  .secret {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+  }
+</style>
+
+</html>
